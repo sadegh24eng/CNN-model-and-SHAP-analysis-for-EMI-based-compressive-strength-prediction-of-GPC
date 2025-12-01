@@ -14,7 +14,6 @@ requirements.txt — Python packages and versions required to run the notebook.
 
 data/ — Example EMI datasets (small, for demonstration purposes).
 
-model/ — Trained CNN model weights (optional, for reproducibility).
 
 Purpose:
 The repository enables full reproducibility of the results presented in the manuscript, including:
@@ -26,18 +25,5 @@ Feature importance analysis using SHAP to interpret influential frequency bands 
 Generation of figures such as SHAP beeswarm and summary plots.
 
 Usage Instructions:
+Download the data provided through the repective DOI attached in the manuscript then create the data as a text file (.txt) using the demo data.
 
-Clone the repository:
-
-git clone https://github.com/yourusername/GPC_EMI_CNN_SHAP.git
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open Notebook.ipynb and follow the cells to reproduce all figures and analysis.
-
-Data Availability:
-All code, workflows, and sample data are publicly available in this repository to ensure transparency and reproducibility of the published study.
